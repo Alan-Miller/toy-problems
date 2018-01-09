@@ -7,16 +7,13 @@
   Given an array arr, swap its first and last elements and return the resulting array.
 
   Example
-  For arr = [1, 2, 3, 4, 5], the output should be [5, 2, 3, 4, 1]
+    For arr = [1, 2, 3, 4, 5], the output should be [5, 2, 3, 4, 1]
 
   Input/Output
-  [input] integer array arr
-
-  Constraints: 0 ≤ arr.length ≤ 50, -1000 ≤ arr[i] ≤ 1000
-
-  [output] an integer array
-
-  Array arr with its first and its last elements swapped.
+  - [input] integer array arr
+    Constraints: 0 ≤ arr.length ≤ 50, -1000 ≤ arr[i] ≤ 1000
+  - [output] an integer array
+    Array arr with its first and its last elements swapped.
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 function switchEm(arry) {
