@@ -12,8 +12,7 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 // Return an array
-function fizzbuzz(n)
-{
+function fizzbuzz(n) {
   return Array.from(Array(n).keys())
     .map(num => num + 1)
     .map(num => (
